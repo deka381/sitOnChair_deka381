@@ -395,7 +395,7 @@ textarea{
   height: 200px;
   padding-top: 20px;
   font-weight: 100;
-
+  resize: none;
 }
 textarea::placeholder{
   color: #bdc3c7;
