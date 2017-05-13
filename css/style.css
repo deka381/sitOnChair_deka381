@@ -218,6 +218,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 }
 #container_price{
   border: 1px solid yellow;
+  background: #ecf0f1;
   margin-top: 90px;
 }
 .price_top{
@@ -235,6 +236,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 
 }
 .price1{
+  position: relative;
   width: 31%;
   height: 500px;
   border: 2px solid #bdc3c7;
@@ -244,6 +246,21 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 }
 .price11{
   margin-left: 0;
+  background-color: #fff;
+}
+.price12{
+background-color: #1abc9c;
+border: 0;
+}
+.price12 .circle_empty{
+  background-color: #1abc9c;
+  border: none;
+}
+.price12 .circle_full{
+  background-color: #fff;
+}
+.price13{
+  background-color: #fff;
 }
 .top_box{
 
@@ -267,4 +284,84 @@ background: linear-gradient(#FFFFFF 50%, #808080);
   border-radius: 50%;
   position: relative;
   top: 13px;
+}
+.h2{
+  text-align: center;
+  font-size: 23px;
+  margin-top: 9px;
+}
+.circle_price{
+  border: 1px solid #bdc3c7;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.circle_price p{
+  text-align: center;
+  margin-top: 38px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.circle_price span{
+  font-size: 16px;
+  color:  #bdc3c7;
+}
+.circle_price sup{
+  font-size: 14px;
+  top: -27px;
+}
+.price11 .h2, .price13 .h2{
+  color: #24ba9f;
+}
+
+.price11 p, .price13 p{
+color: #bdc3c7;
+
+}
+.price12 .h2{
+  color: #fff;
+}
+.price12 .circle_price{
+  background-color: #fff;
+}
+.price12 p, .price12 span{
+  color: #1abc9c;
+}
+.price1 ul{
+  width: 100%;
+  margin-top: 29px;
+  position: absolute;
+
+}
+.price1 li{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  color: #2c3e50;
+}
+.price1 li:nth-child(2n+2){
+  background: #bdc3c7;
+}
+.price1 li:nth-child(2n+1){
+  background: rgba(255,255,255,0.7);
+}
+.price11 li:nth-child(2n+1), .price13 li:nth-child(2n+1){
+  background: #bdc3c7;
+}
+.price11 li:nth-child(2n+2), .price13 li:nth-child(2n+2){
+  background: #24ba9f;
+}
+button{
+  bottom: 0;
+  width: 125px;
+  height: 38px;
+  position: absolute;
+  left: 30%;
+  bottom: 16px;
+  border-radius: 8%;
+  border:none;
 }
