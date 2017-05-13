@@ -119,6 +119,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
   float: right;
   height: 100%;
   padding-right: 180px;
+  position: relative;
 }
 .slider h1{
   font-weight: 700;
@@ -129,10 +130,12 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 }
 .col2_text{
   text-align: center;
+  font-size: 18px;
 }
-.slider button{
-  margin-top: 20px;
-  margin-left: 100px;
+.slider_button{
+  position: absolute;
+  bottom: 110px;
+  margin-left: -100px;
   height: 50px;
   width: 250px;
   border-radius: 10px;
@@ -143,8 +146,8 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 
 .arr-right{
   position: absolute;
-  top:270px;
-  right: 120px;
+  top:211px;
+  right: 0px;
   font-size: 70px;
   color:  #24ba9f;
 }
@@ -167,6 +170,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 }
 .foto3{
   height: 210px;
+  border: 2px solid #ecf0f1;
 }
 .foto1_p, .foto2_p{
   position: absolute;
@@ -196,6 +200,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
   top: 15px;
   height: 60px;
   padding-left: 10px;
+
 }
 .foto3_p p.title{
   font-weight: 600;
