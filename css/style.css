@@ -49,15 +49,26 @@ nav li{
 nav li:last-child{
   padding-right: 10px;
 }
+.main_menu > li > a{
+    color:#fff;
+}
+.main_menu > li:hover > a{
+  color: #24ba9f;
+  
+
+}
+.first_pop > li:hover > a{
+  color: red;
+}
 .hide_menu{
   position: relative;
 }
-.first_pop{
+.main_menu > li >ul{
   display: none;
+  z-index: 1;
   position: absolute;
   left: 20px;
   padding-top: 18px;
-
 }
 .first_pop li{
   background: #000;
@@ -69,8 +80,15 @@ nav li:last-child{
   padding: 0 20px 9px 20px;
 
 }
-.hide_menu:hover > .first_pop  {
+
+.main_menu > li:hover > ul {
+display: block;
+}
+.first_pop li{
   display: block;
+}
+.main_menu > li > ul > li:hover > a{
+  color: #24ba9f;
 }
 .first_pop::before{
   content: "";
@@ -187,6 +205,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
 .foto2:hover > .foto2_p{
   display: block;
 }
+
 .foto1_p p.title, .foto2_p p.title{
   font-weight: 600;
   padding-left: 16px;
@@ -216,6 +235,7 @@ background: linear-gradient(#FFFFFF 50%, #808080);
   line-height: 17px;
   font-weight: 500;
 }
+
 #container_price{
   background: #ecf0f1;
   margin-top: 90px;
