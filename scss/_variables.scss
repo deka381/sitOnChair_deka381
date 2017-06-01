@@ -1,0 +1,23 @@
+%clearfix{
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+@mixin arrow($direction) {
+    border: 10px solid transparent;
+    border-#{$direction}: 10px solid #000;
+    height: 0;
+    width: 0;
+  }
+%backgroundPosition{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+%title{
+  font-weight: 600;
+  padding-left: 16px;
+  padding-top: 14px;
+  border-bottom: 7px solid #24ba9f;
+}
